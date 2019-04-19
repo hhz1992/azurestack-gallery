@@ -113,7 +113,7 @@
 		xDisk DataDisk
         {
             DiskNumber = 2
-            DriveLetter = "F"
+            DriveLetter = "E"
             DependsOn = '[xWaitforDisk]Disk2'
         }
 		
