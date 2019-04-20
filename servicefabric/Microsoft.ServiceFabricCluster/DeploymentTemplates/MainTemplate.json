@@ -258,8 +258,8 @@
 
         "imageConfig": {
             "vmssUniqueName": "[concat(parameters('nodeTypePrefix'), 'vmss')]",
-            "vmImagePublisher": "MicrosoftWindowsServer",
-            "vmImageOffer": "[if(equals(parameters('vmImageSku'), 'Datacenter-Core-1709-with-Containers-smalldisk'), 'WindowsServerSemiAnnual', 'WindowsServer')]",
+            "vmImagePublisher": "MicrosoftAzureStack",
+            "vmImageOffer": "AddOnRP",
             "vmImageVersion": "latest",
             "vhdContainerName": "[concat(variables('uniquePrefix'), 'vhd')]",
             "osDiskName": "[concat(variables('uniquePrefix'), 'osdisk')]",
