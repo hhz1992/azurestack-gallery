@@ -12,7 +12,7 @@
       "value": 3
     },
     "vmImageSku": {
-      "value": "Core"
+      "value": "2016-Datacenter"
     },
     "vmNodeSize": {
       "value": "Standard_D2_v2"
