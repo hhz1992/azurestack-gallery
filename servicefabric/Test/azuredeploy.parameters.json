@@ -12,7 +12,7 @@
       "value": 3
     },
     "vmImageSku": {
-      "value": "Core32"
+      "value": "Core"
     },
     "vmNodeSize": {
       "value": "Standard_D2_v2"
